@@ -16,6 +16,12 @@ Use excerpts from this file in `REFLECTION.md` (Part C must be written in your o
 
 **AI changes:** Updated `ai/setup_env.sh` and relaxed pins in `ai/environment.yml` (`python=3.10`, wildcard minor versions).
 
+## Prompt 3 (add Hello World notebooks)
+
+> Add the three Hello World Jupyter notebooks to ai/ (hello_bash.ipynb, hello_python.ipynb, hello_r.ipynb) matching Part A structure, using the hello_world_ai kernels from setup_env.sh.
+
+**AI output:** Created `ai/hello_bash.ipynb` (%%bash magic, kernel `hello_world_ai`), `ai/hello_python.ipynb` (kernel `hello_world_ai`), and `ai/hello_r.ipynb` (kernel `ir_hello_world_ai`).
+
 ## What broke on first run (before fixes)
 
 | Step | Result |
